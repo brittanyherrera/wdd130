@@ -16,6 +16,7 @@
    
     
   }
+  
   .banner-box {
     height: 30px;
   }
@@ -67,6 +68,18 @@
     width: 150px;
     height: 150px;
   }
+  #bottom {
+    background-color: #85adad;
+    font-size: 22px;
+    height: 75px;
+    padding: 1px;
+    border-style: groove;
+     color: grey;
+      
+      border-width: 4px;
+      border-style: groove;
+      border-color: lightgrey;
+  }
   .p {
     margin: 10px;
   }
@@ -75,7 +88,7 @@
     line-height: 20px;
   }
   #contenthome {
-    height: 1200px;
+    height: 1270px;
     max-width: 960px;
     margin: 0 auto;
     background-color: #f2f2f2;
@@ -101,7 +114,18 @@
       border-color: lightgrey;
           
   }
-  
+  .stuff {
+    height: 960px;
+  }
+  .stuff img {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+  }
+  .logo-box img {
+    width: 20%;
+  }
   body {
     background-color: #85adad;
     font-family: Georgia, Amaranth, serif
@@ -113,7 +137,14 @@
     grid-template-rows: 200px 250px 250px 100px 100px 245px 140px;
     grid-gap: 10px;
   }
-  
+  .home-gridmain {
+
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 200px;
+    grid-gap: 10px;
+  height: 100px;
+  }
   .home-headline-1 {
     grid-column: 1/5;
     grid-row: 1/2;

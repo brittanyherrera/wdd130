@@ -70,7 +70,18 @@
   .p {
     margin: 10px;
   }
-  
+  #bottom {
+    background-color: #85adad;
+    font-size: 22px;
+    height: 75px;
+    padding: 1px;
+    border-style: groove;
+     color: grey;
+      
+      border-width: 4px;
+      border-style: groove;
+      border-color: lightgrey;
+  }
   #contentbio {
     line-height: 20px;
   }
@@ -86,6 +97,11 @@
       border-style: groove;
       border-color: lightgrey;
           
+  
+  }      
+  
+  #stuff {
+    height: 327px;
   }
   #contentaboutme {
     max-width: 960px;
@@ -98,13 +114,15 @@
       border-width: 5px;
       border-style: groove;
       border-color: lightgrey;
-      height: 1100px;
+      height: 1020px;
   }
   body {
     background-color: #85adad;
     font-family: Georgia, Amaranth, serif
   }
-  
+  .logo-box img {
+    width: 18%;
+  }
   .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
