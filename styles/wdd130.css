@@ -74,6 +74,19 @@
   #contentbio {
     line-height: 20px;
   }
+  #contenthome {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    
+   border-style: groove;
+      border-color: grey;
+      
+      border-width: 5px;
+      border-style: groove;
+      border-color: lightgrey;
+          
+  }
   #content {
     max-width: 960px;
     margin: 0 auto;
