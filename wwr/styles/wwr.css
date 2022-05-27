@@ -3,10 +3,19 @@
   margin: 0 auto;
   border: solid 5px #808000;
 }
-
+#contact-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  border: solid 5px #808000;
+  height: 500px;
+}
 body {
   background-color: #FAF0E6; 
  font-family: Papyrus, Copperplate, sans-serif; 
+ font-size: 22px;
+ margin: 0;
+ padding: 0;
+
 }
 header {
   background-color: #00008B; 
@@ -26,7 +35,7 @@ nav a {
   text-align: center;
     color: #FAF0E6;
     text-decoration: none;
-    padding: 15px;
+    padding: 35px;
     margin: 20px;
 }
 
@@ -40,7 +49,9 @@ nav a:hover {
 main section {
   text-align: center;
 }
-
+#contact-background {
+  height: 240px;
+}
 #background {
   height: 225px;
   background-color: #FAF0E6;
@@ -66,8 +77,8 @@ a .book {
   height: 50px;
 }
 .join {
-  background-color: #808000; 
-  border:#00008B solid 3px;
+  background-color: #00008B; 
+  border:#FAF0E6 solid 2px;
   font-family: Copperplate, Helvetica, sans-serif;
  font-size: 24px;
     color: #FAF0E6;
@@ -76,21 +87,22 @@ a .book {
     
 }
 .book:hover {
-  background-color: #00008B; 
-  color: #FAF0E6;
+  background-color: #FAF0E6; 
+  color: #00008B;
  
 }
  .join:hover {
-  background-color: #00008B; 
-  color: #FAF0E6;
+  background-color: #FAF0E6; 
+  color: #00008B;
   border: solid 2px #808000;
+  
  }
 
 .msg {
-background-color: #FAF0E6;
+background-color: #808000;
 color: #FAF0E6;
-
-height: 300px;
+line-height: 1.5em;
+height: 370px;
 
 }
 section .msg a .join {
@@ -103,14 +115,14 @@ color:#808000;
 height: 80px;
 text-align: center;
 font-family: Copperplate, Helvetica, sans-serif;
-padding: 20px;
+padding: 35px;
 font-size: 36px;
 }
 .msg p {
-background-color: #FAF0E6;
-color: black;
+background-color: #808000;
+color: #FAF0E6;
 font-size: 24px;
-
+margin-top: 50px;
 }
 
 
@@ -123,41 +135,110 @@ h1 {
   height: 20px;
   font-family: Copperplate, Helvetica, sans-serif;
 }
+h2 {
+  margin: 0;
+}
 h4 {
   background-color: #808000;
   color: #00008B;
   height: 20px;
   
 }
-
+#logo_link {  padding-top: 5px;}
+nav a  { padding: 35px;}
+.book, .join   {padding: 15px 30px;}
+.icon   {padding-top: 10px;}
+.msg   {padding: 35px;}
+.msg p   {padding-bottom: 15px;}
+footer   {padding: 25px 50px;}
+footer .social img  { padding-top: 15px;}
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 .logo {
   width: 120px;
   margin: 10px;
 }
-#hero {
+#hero-msg {
+height: 30px;
+margin-top: 5px;
+}
 
+#contact-msg {
+  background-color: #808000;
+  text-align: center;
+  height: 200px;
+  font-size: 24px;
+  font-family: Copperplate, Helvetica, sans-serif;
+  margin-top: -20px;
 }
 #hero-msg {
   background-color: #808000;
-  margin-bottom: 15px;
-  
+  margin-bottom: 10px;
+  padding-top: 8px;
   height: 170px;
   font-size: 24px;
-
   font-family: Copperplate, Helvetica, sans-serif;
 }
-
-.home-title {
+.contact-title {
   height: 20px;
- padding-top: 10px;
+  padding-top: 20px;
+ }
+}
+.home-title {
+  height: 10px;
+ padding-top: 15px;
+ margin-top: 15px;
+ font-family: Copperplate, Arial, Helvetica, sans-serif;
 }
 #hero img {
   width: 100%;
   
+}
+#river {
+  width: 100%;
+  height: 100%;
+  background-color: #808000;
+  
+}
+#river-box {
+  width: 100%;
+  height: 100%;
+}
+#river-img {
+  width: 100%;
+  height: 100%;
+  
+    
+}
+#river-msg {
+  background-color: #808000;
+  text-align: center;
+  height: 200px;
+  font-size: 24px;
+  font-family: Copperplate, Helvetica, sans-serif;
+  margin-top: -20px;
+  
+}
+#contact-img {
+ width: 100%;
+height: 100%;
+
+  
+}
+#contact {
+  width: 100%;
+  height: 100%;
+  background-color: #808000;
+  
+}
+#contact-box {
+  width: 100%;
+  height: 10%;
+
+
 }
 #hero-msg h1 {
   text-align: center;
@@ -168,13 +249,14 @@ h4 {
 }
 .button-box {
   text-align: center;
- 
+ margin-top: 50px;
 
 }
 
 footer {
 background-color: #00008B;
 color: #FAF0E6;
+
 }
 footer a {
   
@@ -191,4 +273,42 @@ color: #808000;
 footer h3 {
   background-color: #00008B;
   color: #808000;
+}
+.home-title   {margin-top: 10px;}
+.book, .join   {margin-top: 20px;}
+.rivers-card, .camping-card, .rapids-card   {margin: 200px 0;}
+footer   {margin-top: 300px;
+}
+
+.book, .join {
+  background-color: #00008B;
+  color: #FAF0E6;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+}
+.book, .join {
+  background-color: #00008B;
+  color: #FAF0E6;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.card-img {
+  border: 10px solid #808000;
+}
+main section img {
+  box-sizing: border-box;
+}
+
+.contact-grid {
+  height: 500px;
+}
+.social img {
+ 
+  border-radius: 10%;
+  width: 50px;
 }
