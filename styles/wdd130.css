@@ -52,7 +52,7 @@
   nav ul li {
     list-style: none;
     display: inline;
-    padding: 1.1em;
+    padding: .75em;
     width: 40px;
   }
   nav a {
