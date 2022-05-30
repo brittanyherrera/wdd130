@@ -39,7 +39,7 @@
   }
   nav {
     background-color: #85adad;
-    font-size: 14px;
+    font-size: 12px;
     height: 65px;
     padding: .75px;
     border-style: groove;
@@ -52,7 +52,7 @@
   nav ul li {
     list-style: none;
     display: inline;
-    padding: .5em;
+    padding: .35em;
     width: 30px;
   }
   nav a {
