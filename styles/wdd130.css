@@ -39,9 +39,9 @@
   }
   nav {
     background-color: #85adad;
-    font-size: 16px;
+    font-size: 14px;
     height: 65px;
-    padding: 1px;
+    padding: .75px;
     border-style: groove;
      color: grey;
       
@@ -52,8 +52,8 @@
   nav ul li {
     list-style: none;
     display: inline;
-    padding: .75em;
-    width: 40px;
+    padding: .5em;
+    width: 30px;
   }
   nav a {
     color: black;
