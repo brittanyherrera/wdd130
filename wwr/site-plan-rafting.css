@@ -102,8 +102,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
+  font-family: Helvetica, sans-serif;
   list-style-type: none;
   display: flex;
 }
@@ -112,9 +111,11 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  font-family: Copperplate, Helvetica, sans-serif;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
+  
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
