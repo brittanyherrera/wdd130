@@ -1,0 +1,437 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    border: solid 5px #D3D3D3;
+    background-color: white;
+    
+  }
+  #contact-content {
+    max-width: 1600px;
+    margin: 0 auto;
+    border: solid 5px #D3D3D3;
+    height: 500px;
+   background-color: white;
+  }
+  body {
+    background-color:  
+    #e0dbc7
+
+    ;
+   font-family: Papyrus, Copperplate, sans-serif; 
+   font-size: 22px;
+   margin: 0;
+   padding: 0;
+  
+  }
+  header {
+    background-color:   #6f7364;
+    height: 240px;
+    margin-top: -3px;
+  }
+   nav {
+     background-color:   #4a3728
+     ;
+     height: 60px;
+     font-size: 30px;
+     padding: 30px;
+     font-family: Copperplate, Helvetica, sans-serif;
+    
+   }
+  
+  nav a {
+    text-align: center;
+      color: #FAF0E6;
+      text-decoration: none;
+      padding: 35px;
+      margin: 20px;
+  }
+  
+  nav a:hover {
+    background-color: #FAF0E6; 
+    color: #6f7364;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  main section {
+    text-align: center;
+  }
+  #contact-background {
+    height: 240px;
+  }
+  #background {
+    height: 225px;
+    background-color: #FAF0E6;
+  }
+  .book {
+    background-color: #FAF0E6; 
+  
+      color: #66420f;
+      text-decoration: none;
+      padding: 10px;
+     border: 2px solid #808080;
+    
+      
+      
+  }
+  
+  .card-img {
+    border: solid 5px #66420f;
+    ;
+  }
+  a .book {
+    width: 100px;
+    height: 50px;
+  }
+  .join {
+    background-color: #66420f; 
+    border:#FAF0E6 solid 2px;
+    font-family: Copperplate, Helvetica, sans-serif;
+   font-size: 24px;
+      color: #FAF0E6;
+      text-decoration: none;
+      padding: 10px;
+      
+  }
+  .book:hover {
+    background-color: #FAF0E6; 
+    color: #52641d;
+   
+  }
+   .join:hover {
+    background-color: #FAF0E6; 
+    color: #52641d;
+    border: solid 2px #66420f;
+    
+   }
+  
+  .msg {
+  background-color: #52641d;
+  color: #FAF0E6;
+  line-height: 1.5em;
+  height: 370px;
+  
+  }
+  section .msg a .join {
+    height: 100px;
+    
+  }
+  .msg h1 {
+  background-color: #fff5ee;
+  color:#66420f;
+  height: 80px;
+  text-align: center;
+  font-family: Copperplate, Helvetica, sans-serif;
+  padding: 35px;
+  font-size: 36px;
+  }
+  .msg p {
+  background-color: #52641d;
+  color: #FAF0E6;
+  font-size: 24px;
+  margin-top: 50px;
+  }
+  
+  
+  .home-title {
+  background-color: #52641d;
+  color: #fff5ee;
+  }
+  h1 {
+    background-attachment: #66420f;
+    height: 20px;
+    font-family: Copperplate, Helvetica, sans-serif;
+  }
+  h2 {
+    margin: 0;
+  }
+  h4 {
+    background-color: #52641d;
+    color: #fff5ee;
+    height: 20px;
+    
+  }
+  #logo_link {  padding-top: 5px;}
+  nav a  { padding: 35px;}
+  .book, .join   {padding: 15px 30px;}
+  .icon   {padding-top: 10px;}
+  .msg   {padding: 35px;}
+  .msg p   {padding-bottom: 15px;}
+  footer   {padding: 25px 50px;}
+  footer .social img  { padding-top: 15px;}
+  .icon {
+    width: 80px;
+    padding-top: 10px;
+  }
+  
+  .logo {
+    width: 120px;
+    margin: 10px;
+  }
+  #hero-msg {
+  height: 30px;
+  margin-top: 5px;
+  }
+  
+  #contact-msg {
+    background-color: #66420f;
+    text-align: center;
+    height: 200px;
+    font-size: 24px;
+    font-family: Copperplate, Helvetica, sans-serif;
+    margin-top: -20px;
+  }
+  #hero-msg {
+    background-color:  #393fa3
+    ;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    height: 170px;
+    font-size: 24px;
+    font-family: Copperplate, Helvetica, sans-serif;
+  }
+  .contact-title {
+    height: 20px;
+    padding-top: 20px;
+   }
+  }
+  .home-title {
+    height: 10px;
+   padding-top: 15px;
+   margin-top: 15px;
+   font-family: Copperplate, Arial, Helvetica, sans-serif;
+  }
+  #hero img {
+    width: 100%;
+    
+  }
+  #river {
+    width: 100%;
+    height: 100%;
+    background-color: #52641d;
+    
+  }
+  #river-box {
+    width: 100%;
+    height: 100%;
+  }
+  #river-img {
+    width: 100%;
+    height: 100%;
+    
+      
+  }
+  #river-msg {
+    background-color: #52641d;
+    text-align: center;
+    height: 200px;
+    font-size: 24px;
+    font-family: Copperplate, Helvetica, sans-serif;
+    margin-top: -20px;
+    
+  }
+  #contact-img {
+   width: 100%;
+  height: 100%;
+  
+    
+  }
+  #contact {
+    width: 100%;
+    height: 100%;
+    background-color: #52641d;
+    
+  }
+  #contact-box {
+    width: 100%;
+    height: 10%;
+  
+  
+  }
+  #hero-msg h1 {
+    text-align: center;
+  
+  }
+  #hero-msg h4 {
+    text-align: center;
+  }
+  .button-box {
+    text-align: center;
+   margin-top: 50px;
+  
+  }
+  
+  footer {
+  background-color: #808080;
+  color: #FAF0E6;
+  
+  }
+  footer a {
+    
+      text-decoration: none;
+      background-color: #808080;
+      color: #52641d;
+      
+  }
+  footer a:hover {
+  background-color: #FAF0E6;
+  color: #fff5ee;
+  }
+  
+  footer h3 {
+    background-color: #808080;
+    color: #fff5ee;
+  }
+  .home-title   {margin-top: 10px;}
+  .book, .join   {margin-top: 20px;}
+  .rivers-card, .camping-card, .rapids-card   {margin: 200px 0;}
+  
+  footer   {margin-top: 300px;
+  }
+  
+  
+  .book, .join {
+    background-color: #52641d;
+    color: #FAF0E6;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .card-img {
+    border: 10px solid #52641d;
+  }
+  main section img {
+    box-sizing: border-box;
+  }
+  
+  .contact-grid {
+    height: 500px;
+  }
+  .social img {
+   
+    border-radius: 10%;
+    width: 50px;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+  }
+  #hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+  #hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+  }
+  
+  #hero-msg h4 {
+    color: white;
+  }
+  #hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+  }
+  #hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+  }
+  #hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+  }
+  .card-img, .mountains {
+    width: 100%;
+  }
+  footer {
+    background-color: #808080;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .card-img {
+    border: 10px solid #52641d;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  }
+     
+  .msg {
+    background-color: #52641d;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #52641d;
+  }
+  
+  @media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #66420f;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+  }
+  
+  

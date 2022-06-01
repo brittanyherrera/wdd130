@@ -10,10 +10,8 @@
   .logo-box img {
     margin-left: 40px;
     margin-top: 20px;
-    border: 1px #85adad solid;
+    border: 1px midnightblue solid;
     border-radius: 20%;
-    
-   
     
   }
   .banner-box {
@@ -23,46 +21,60 @@
     width: 100%;
     height: 250px;
   }
+  #contentaboutme img {
+    border-radius: 15px;
+    margin-left: 50px;
+    box-shadow: 20px 10px silver;
+    width: 17%;
+    height: 34%;
   
+  }
   #bio img {
     float: left;
     margin: 0px 15px 15px 0px;
+   
+  }
+  h1 {
+    padding-left: 50px;
   }
   #bio h1,
   h2 {
     text-align: left;
      font-family: Georgia, Amaranth, serif; 
+     padding-left: 50px;
+     padding-bottom: 10px;
   }
   p {
     font-family: Times New Roman, Amaranth, serif;
+    padding-left: 6px;
   }
   nav {
-    background-color: #85adad;
-    font-size: 22px;
+    background-color: midnightblue;
+    font-size: 16px;
     height: 65px;
     padding: 1px;
     border-style: groove;
-     color: grey;
-      
-      border-width: 4px;
-      border-style: groove;
-      border-color: lightgrey;
+    color: white;
+    border-width: 4px;
+    border-style: groove;
+    border-color: lightgrey;
   }
+
   nav ul li {
     list-style: none;
     display: inline;
-    padding: 1.1em;
-    width: 40px;
+    padding: .40em;
+    width: 20px;
   }
   nav a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   nav a:hover {
     background-color: white;
-    color: grey;
+    color: midnightblue;
     border-radius: 25px;
-    border: 2px solid grey;
+    border: 2px solid midnightblue;
     padding: 4px;
     width: 150px;
     height: 150px;
@@ -71,16 +83,16 @@
     margin: 10px;
   }
   #bottom {
-    background-color: #85adad;
-    font-size: 22px;
+    background-color: midnightblue;
+    font-size: 18px;
     height: 75px;
-    padding: 1px;
     border-style: groove;
-     color: grey;
-      
-      border-width: 4px;
-      border-style: groove;
-      border-color: lightgrey;
+    color: white;
+    border-width: 4px;
+    border-style: groove;
+    border-color: lightgrey;
+   
+   
   }
   #contentbio {
     line-height: 20px;
@@ -89,189 +101,37 @@
     max-width: 960px;
     margin: 0 auto;
     background-color: #f2f2f2;
-    
-   border-style: groove;
-      border-color: grey;
-      
-      border-width: 5px;
-      border-style: groove;
-      border-color: lightgrey;
-          
+    border-style: groove;
+    border-color: grey;
+    border-width: 5px;
+    border-style: groove;
+    border-color: lightgrey;
+    height: 1140px; 
   
   }      
   
   #stuff {
-    height: 327px;
+    height: 357px;
   }
+
   #contentaboutme {
     max-width: 960px;
     margin: 0 auto;
     background-color: #f2f2f2;
-    
-   border-style: groove;
-      border-color: grey;
-      
-      border-width: 5px;
-      border-style: groove;
-      border-color: lightgrey;
-      height: 1020px;
+    border-style: groove;
+    border-color: grey;
+    border-width: 5px;
+    border-style: groove;
+    border-color: lightgrey;
+    height: 820px;
   }
+
   body {
-    background-color: #85adad;
-    font-family: Georgia, Amaranth, serif
+    background-color: midnightblue;
+    font-family: Georgia, Amaranth, serif;
+    
   }
   .logo-box img {
     width: 18%;
   }
-  .home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 250px 250px 100px 100px 245px 140px;
-    grid-gap: 10px;
-  }
-  
-  .home-headline-1 {
-    grid-column: 1/5;
-    grid-row: 1/2;
-    background-color: #85adad;
-    height: 65px;
-    margin-top: 215px;
-   font-family: Amaranth, serif, ariel; 
-     border-color: grey;
-      text-align: center;
-      border-width: 4px;
-      border-style: groove;
-      border-color: lightgrey;
-  
-  }
-  .home-headline-1 h2 {
-    margin-left: 1.5em;
-    margin-bottom: 1em;
-    font-family: Amaranth, serif, ariel; 
-  }
-  .home-right-img {
-    grid-column: 3/5;
-    grid-row: 2/4;
-    width: 90%;
-    margin-top: 110px;
-    margin-left: 5px;
-    box-shadow: 10px 10px 5px lightblue;
-    border-radius: 15px;
-    border: 2px solid lightgrey;
-   
-  
-  }
-  .home-headline-2 {
-    grid-column: 1/5;
-    grid-row: 3/4;
-    background-color: #85adad;
-    height: 65px;
-    margin-top: 215px;
-    border-style: groove;
-  }
-  .home-headline-2 h2 {
-    margin-left: 1.5em;
-  }
-  .home-left-img {
-    margin-left: 40px;
-    grid-column: 1/3;
-    grid-row: 4/6;
-    width: 90%;
-    border: 2px solid lightgrey;
-    margin-top: 65px;
-    box-shadow: 10px 10px 5px lightblue;
-    border-radius: 15px;
-  }
-  .home-paragraph-1 {
-    grid-column: 1/3;
-    grid-row: 2/3;
-    margin-left: 30px;
-    padding-top: 100px;
-  }
-  .home-paragraph-2 {
-    grid-column: 3/5;
-    grid-row: 4/5;
-    width: 80%;
-    padding-top: 5em;
-    margin-left: 3em;
-    line-height: 1.25em;
-  }
-  .home-headline-3 {
-    grid-column: 1/5;
-    grid-row: 6/7;
-    
-    background-color: #85adad;
-    height: 65px;
-    margin-top: 215px;
-    border-style: groove;
-    
-  }
-  .home-headline-3 #div1, #div2, #div3, #div4, #div5 {
-    
-  
-    margin-bottom: 1em;
-    margin-left: 14px;
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    font-weight: bold;
-    position: relative;
-    animation: mymove 5s infinite;
-     
-  }
-  .home-headline-3 #div1 img {
-    width: 90%;
-    height: 90%;
-    margin-top: 10px;
-    margin-bottom: -1em;
-  }
-  
-  .home-headline-3 #div2 h2, .home-headline-3 #div3 h2, .home-headline-3 #div4 h2,  .home-headline-3 #div5 h2 {
-    padding-left: 15px;
-  }
-  
-  .home-headline-3 #div1 img {animation-timing-function: linear;}
-  .home-headline-3 #div2 h2 {animation-timing-function: ease;}
-  .home-headline-3 #div3 h2 {animation-timing-function: ease-in;}
-  .home-headline-3 #div4 h2 {animation-timing-function: ease-out;}
-  .home-headline-3 #div5 h2 {animation-timing-function: ease-in-out;}
-  
-  
-  
-   .home-paragraph-3 {
-    grid-column: 1/5;
-    grid-row: 5/6;
-    margin-left: 200px;
-     margin-top: 40px;
-  }
-  
-  .home-grid footer {
-    background-color: #85adad;
-    height: 100px;
-   
-    grid-column: 1/5;
-    grid-row: 8/9;
-   border-style: groove;
-   
-  }
-  
-  .home-grid footer ul li {
-    list-style: none;
-    display: inline;
-  }
-  .home-grid footer p {
-    margin-top: 25px;
-    padding: 0.05px;
-    margin-left: 2px;
-    padding-left: 25px;
-  }
-  
-  .home-grid footer .social {
-    float: right;
-    margin: 0.5em;
-    display: inline;
-  
-  }
-  .home-grid footer .social img {
-      border-radius: 10px;
-  }
+
